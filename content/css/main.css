@@ -1,0 +1,25 @@
+#milkfontlogo {
+    width: 400px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.text{
+    font-size: 20px;
+    display: block;
+}
+
+img{
+    width: '150px';
+    height: '150px';
+    display: block;
+    
+}
+
+#buttonContainer{
+    text-align: center;
+    padding-bottom: 10px;
+}

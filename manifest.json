@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Milk",
+    "description": "If a user is on a specific site, the downloaded chrome extension would be able to automatically look at keywords on a user’s screen and suggest other viral links from a small pop up window.", 
+    "version": "1",
+    "author": "TO BE DETERMINED",
+    
+    
+    
+    "browser_action": {
+        "default_icon": "img/milk.png",
+        "default_title": "Milk",
+        "default_popup": "content/html/popup.html"
+    },
+    
+    "content_scripts": 
+    [
+        {
+            
+            "js":["content/js/jquery-3.3.1.min.js","content/js/main.js"],
+            "matches": [ "http://*/*", "https://*/*"]
+            
+        }
+    ]
+}
